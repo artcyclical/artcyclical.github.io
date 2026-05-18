@@ -73,6 +73,37 @@ waste and supporting the circular economy." />
 
     <div class="container text-center mt-5">
         <img src="assets/img/logo_01.png" class="img-fluid d-block mx-auto" alt="Artcyclical logo image">
+
+<form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="p-4 border rounded bg-white shadow-sm">
+
+    <!-- Disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect after submit -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+    <!-- Honeypot (anti-spam) -->
+    <input type="text" name="_honey" style="display:none">
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea name="message" rows="5" class="form-control" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+</form>
+
+
     </div>
 
         
