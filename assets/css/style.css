@@ -1,1 +1,197 @@
+ html {
+        scroll-behavior: smooth;
+        font-size: 1rem;
+    }
+
+    body {
+        margin: 0;
+        background-color: #1A1A1A;
+        color: #F9F6EE!important;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 300;
+        overflow-x: hidden;
+        position: relative;
+        isolation: isolate;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        background:
+            radial-gradient(circle at 14% 18%, rgba(0, 92, 86, 0.34), transparent 42%),
+            radial-gradient(circle at 82% 8%, rgba(0, 74, 81, 0.26), transparent 46%),
+            linear-gradient(145deg, rgba(2, 28, 31, 0.58), rgba(0, 51, 56, 0.4));
+        backdrop-filter: blur(10px) saturate(115%);
+        -webkit-backdrop-filter: blur(10px) saturate(115%);
+    }
+
+    body > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    body,
+    p,
+    li,
+    a,
+    .lead,
+    .nav-link,
+    .btn,
+    .navbar-brand {
+        font-weight: 300 !important;
+    }
+
+    .fw-bold {
+        font-weight: 400 !important;
+    }
+
+    .floating-nav {
+        z-index: 1000;
+        width: 100%;
+        padding: 12px 16px;
+        background: rgba(26, 26, 26, 0.88);
+        border-bottom: 1px solid rgba(226, 140, 1, 0.35);
+        border-radius: 0;
+        backdrop-filter: blur(8px);
+    }
+
+    .floating-nav .navbar-brand {
+        color: #E28C01;
+        letter-spacing: 0.4px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .floating-nav .brand-logo {
+        display: block;
+        height: 34px;
+        width: auto;
+    }
+
+    .floating-nav .navbar-brand:hover,
+    .floating-nav .navbar-brand:focus-visible {
+        color: #ffab2d;
+    }
+
+    .floating-nav .nav-link {
+        color: #F9F6EE;
+        font-size: 0.92rem;
+        padding: 12px 12px;
+        border-radius: 0px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .floating-nav .nav-link:hover,
+    .floating-nav .nav-link:focus-visible {
+        background-color: rgba(226, 140, 1, 0.16);
+        color: #E28C01;
+        outline: none;
+    }
+
+    .floating-nav .navbar-toggler {
+        border-color: rgba(226, 140, 1, 0.45);
+    }
+
+    @media (max-width: 768px) {
+        .floating-nav {
+            padding: 10px 12px;
+        }
+
+        .floating-nav .brand-logo {
+            height: 30px;
+        }
+
+        .floating-nav .nav-link {
+            font-size: 0.85rem;
+            padding: 7px 10px;
+        }
+
+        .floating-nav .navbar-nav {
+            padding-top: 8px;
+            gap: 2px;
+        }
+    }
+
+    .section {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    .hero {
+        min-height: 100dvh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        background: url('../img/hero_bg.png') center/cover no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .hero-overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.55);
+    }
+
+    .hero-content {
+        width: 100%;
+        padding-top: clamp(120px, 16vh, 180px);
+        padding-bottom: 80px;
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        animation: fadeUpHero 1.4s ease-out forwards;
+        transform: translateY(30px);
+    }
+
+    @keyframes fadeUpHero {
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, h2, h3 {
+        color: #E28C01;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+    }
+
+    .btn-accent {
+        background-color: #003C32;
+        color: #F9F6EE;
+        border: none;
+        padding: 12px 28px;
+        font-size: 1.1rem;
+        border-radius: 6px;
+        transition: 0.3s ease;
+    }
+
+    .btn-accent:hover {
+        background-color: #02594d;
+        transform: translateY(-3px);
+    }
+
+    .divider {
+        width: 90px;
+        height: 3px;
+        background-color: #E28C01;
+        margin: 0 auto 40px auto;
+    }
+
+
+
+.bg-dark {
+    background-color: #010101 !important;
+}
 
