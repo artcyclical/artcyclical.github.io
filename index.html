@@ -75,12 +75,12 @@ waste and supporting the circular economy." />
 
 </head>
 
-<body class="bg-dark">
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top floating-nav" id="floatingNav" aria-label="Section navigation">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top floating-nav" id="floatingNav" aria-label="Section navigation">
     <div class="container-fluid px-2">
         <a class="navbar-brand" href="#top" aria-label="Artcyclical home">
             <img src="assets/img/logo_01.svg" alt="Artcyclical" class="brand-logo">
@@ -103,7 +103,10 @@ waste and supporting the circular economy." />
 <!-- HERO -->
 <section class="hero" id="top">
     <div class="hero-overlay"></div>
+
+    
     <div class="container hero-content">
+        <img src="assets/img/zebra_armchair.png" alt="Zebra armchair by Artcyclical" class="hero-zebra-image img-fluid mb-4">
         <h1 class="fw-bold display-1">Artcyclical</h1>
         <p class="lead mt-3 fs-2">Transforming the discarded into culturally expressive, sustainable functional art.</p>
         <a href="#contact" class="btn btn-accent mt-4 text-light fs-2">Get in Touch</a>
@@ -113,12 +116,18 @@ waste and supporting the circular economy." />
 <!-- WHAT WE DO -->
 <section class="section text-center" id="what-we-do" data-aos="fade-up">
     <div class="container">
+
+        <div class="what-we-do-image-wrap" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/zebra_armchair.png" alt="Artcyclical zebra armchair restoration piece" class="what-we-do-image">
+        </div>        
+
         <div class="divider"></div>
         <h2 class="display-2">What We Do</h2>
         <p class="mt-4 fs-2">
             We rescue, restore, and redesign the discarded into unique functional pieces.
             Every piece blends craftsmanship, sustainability, and cultural expression.
         </p>
+
     </div>
 </section>
 
@@ -169,11 +178,15 @@ waste and supporting the circular economy." />
     </div>
 </section>
 
+<div class="theme-toggle-wrap" aria-live="polite">
+    <span class="theme-toggle-label" id="themeToggleLabel">Dark Mode</span>
+    <label class="theme-switch" for="themeToggle" aria-label="Toggle light and dark theme">
+        <input type="checkbox" id="themeToggle" role="switch" aria-labelledby="themeToggleLabel" />
+        <span class="theme-slider"></span>
+    </label>
+</div>
 
-
-
-
-    <footer class="text-white py-4">
+    <footer class="site-footer py-4">
         <div class="container">
             <p class="mb-0 text-center">&copy; 2026 Artcyclical. All rights reserved.</p>
         </div>
