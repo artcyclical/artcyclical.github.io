@@ -169,7 +169,7 @@ body.theme-light {
         display: flex;
         align-items: end;
         background-image: url('../img/herobg.png');
-        background-size: 200px 200px;
+        background-size: 250px 250px;
         background-position: 50% 50%;
         background-repeat: repeat;
         position: relative;
