@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with enve https://maurycyliebner.github.io -->
+
+<svg viewBox="0 0 1920 1080" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-61.7595 -68.0938)">
+  <g>
+   <animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8.33333s" keyTimes="0;0;0.025;0.045;0.075;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="328.152 0;328.152 0;638.534 0;1227.62 0;1701.11 0;1701.11 0" repeatCount="indefinite"/>
+   <g>
+    <animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8.33333s" keyTimes="0;0;0.025;0.045;0.075;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="0 588.299;0 588.299;0 524.956;0 532.874;0 827.419;0 827.419" repeatCount="indefinite"/>
+    <g transform="rotate(0)">
+     <g transform="scale(1 1)">
+      <g transform="skewX(0) skewY(0)">
+       <g transform="translate(61.7595 68.0938)" opacity="1">
+        <ellipse stroke="#000000" ry="144.106" cx="0" stroke-width="1" fill="#ef0000" rx="142.522" cy="0"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs/>
+</svg>
