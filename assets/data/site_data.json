@@ -1,1 +1,68 @@
-
+{
+  "featured_items": [
+    {
+      "id": 1,
+      "name": "Gold Cabinet",
+      "description": "A stunning hand-painted cabinet with luxurious gold leaf accents",
+      "image": "assets/img/gold_cabinet.png",
+      "price": "£850",
+      "status": "Sold"
+    },
+    {
+      "id": 2,
+      "name": "Brown Chest of Drawers",
+      "description": "Classic restoration with modern artistic flair",
+      "image": "assets/img/brown-chest.png",
+      "price": "£650",
+      "status": "Sold"
+    },
+    {
+      "id": 3,
+      "name": "Lacquered Chest",
+      "description": "Hand-lacquered with intricate detailing and contemporary design",
+      "image": "assets/img/brown-chest-2.png",
+      "price": "£750",
+      "status": "Sold"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Sarah M.",
+      "text": "Absolutely stunning piece. The craftsmanship is exceptional, and it brought so much character to my home.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "author": "James L.",
+      "text": "Beyond impressed. Every detail is perfect. This is not just furniture, it's art.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "author": "Emma K.",
+      "text": "A conversation starter. The quality and uniqueness make it a worthwhile investment.",
+      "rating": 5
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Custom Restoration",
+      "description": "Bring your old furniture back to life with our artistic restoration services",
+      "image": "assets/img/zebra_armchair-thumb.png"
+    },
+    {
+      "id": 2,
+      "title": "Bespoke Design",
+      "description": "Commission a unique piece tailored to your vision and space",
+      "image": "assets/img/gold_cabinet-thumb.png"
+    },
+    {
+      "id": 3,
+      "title": "Artistic Finishing",
+      "description": "Hand-painted details, gold leaf, lacquer, and premium finishes",
+      "image": "assets/img/brown-chest-thumb.png"
+    }
+  ]
+}
