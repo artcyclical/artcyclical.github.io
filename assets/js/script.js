@@ -182,11 +182,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             }
 
             if (logo) {
-                logo.src = isLight ? 'assets/img/logo-light.svg' : 'assets/img/logo-dark.svg';
+                logo.src = isLight ? 'assets/img/logo-light.png' : 'assets/img/logo-dark.png';
             }
 
             if (footerLogo) {
-                footerLogo.src = isLight ? 'assets/img/logo-light.svg' : 'assets/img/logo-dark.svg';
+                footerLogo.src = isLight ? 'assets/img/logo-light.png' : 'assets/img/logo-dark.png';
             }
 
             themedImages.forEach((image) => {
